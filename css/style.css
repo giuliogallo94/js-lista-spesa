@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: 5rem auto;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.container {
+  background-color: green;
+  padding: 2rem;
+}
+
+h1 {
+  color: white;
+}
+
+ul {
+  margin: 0 auto;
+  width: 30%;
+  list-style-type: none;
+  background-color: beige;
+  border-radius: 1rem;
+}
