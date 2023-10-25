@@ -18,6 +18,7 @@ let i = 0;
 while (i < myArray.length) {
   console.log(myArray[i]);
   curElem += `<li> <input type="checkbox" id="${myArray[i]}" name="${myArray[i]}" /> ${myArray[i]}</li>`;
-  document.querySelector("ul").innerHTML = curElem;
   i++;
 }
+
+document.querySelector("ul").innerHTML = curElem;
